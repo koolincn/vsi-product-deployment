@@ -1,5 +1,5 @@
 locals {
-        image_map = {
+        imagemap = {
 			"us-south" = "r006-88bde2b6-0419-40ad-a1a2-7996ba9ec7f3"
 			"us-east" = ""
 			"eu-gb" = ""
