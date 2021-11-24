@@ -97,5 +97,5 @@ resource "ibm_is_instance" "sample_vsi" {
 
   resource "ibm_is_floating_ip" "fip1" {
   name   = "zhut-fip1"
-  target = ibm_is_instance.sample_vsi[0].primary_network_interface[0].id
+  target = ibm_is_instance.sample_vsi.primary_network_interface.id
 }
