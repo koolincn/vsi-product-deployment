@@ -3,7 +3,7 @@
 ##############################################################################
 variable "subnet_id"{
   default = "0717-70823db2-b395-444b-b9f6-c803980c8025"
-  description = "The ID of the subnet within the VPC that the virtual server instance uses. Required for users to specify."
+  description = "The ID of your subnet within the VPC that the virtual server instance uses. Required for users to specify.(The default value is just for FYI)"
 }
 
 ##############################################################################
@@ -32,7 +32,7 @@ variable "vsi_profile" {
 
 variable "region" {
   default     = ""
-  description = "The region in which the VPC instance is located. Required for users to specify."
+  description = "The region in which the VPC instance is located. Required for users to specify.(us-south;us-east;eu-de;eu-gp;au-syd;jp-tok;jp-osa;br-sao;ca-tor)"
 }
 
 #####################################################################################################
